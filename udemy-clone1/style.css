@@ -79,6 +79,15 @@ body{
     color: white;
     padding: 20px;
     border-radius: 30px;
+    cursor: pointer;
+    border: solid #a435f0 1px;
+}
+.Categories p:hover{
+    transition: 1s;
+    background-color: transparent;
+    color: black;
+    border: solid #a435f0 1px;
+
 }
 
 .sale-image {
@@ -94,6 +103,9 @@ body{
     position: absolute;
     top: 10%;
     left: 10%;
+    animation-name: zoom;
+    animation-duration: 3s;
+    opacity: 0;
 
 }
 @keyframes zoom{
