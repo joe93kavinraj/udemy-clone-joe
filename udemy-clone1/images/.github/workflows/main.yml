@@ -24,7 +24,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: E:\Python ERROR MAKES CLEVER -BATCH MARCH 6TH BATCH 26 FSWD\CSS\udemy-clone1
+          path: ./udemy-clone1   
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
